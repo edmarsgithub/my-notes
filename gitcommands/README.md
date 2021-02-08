@@ -56,7 +56,7 @@ Na sequência segue alguns passos resumidos para gerenciar um projeto usando o *
 
 15. É possível verificar como ficou associado o apelido à URL basta executar o comando:
 
-    * `git remove -v`
+    * `git remote -v`
 
 16. Após esse comando, seu repositório local já pode ser enviado ao **GITHUB** para o arquivamento dessa versão. 
 
