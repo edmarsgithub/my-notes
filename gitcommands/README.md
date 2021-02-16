@@ -67,3 +67,5 @@ Na sequência segue alguns passos resumidos para gerenciar um projeto usando o *
 18.  Se tudo ocorreu certo, agora você já tem seu código em um repositório remoto e já pode começar a versionar seu código a cada nova inclusão, modificação ou exclusão feita e seus arquivos.
 
 **Good luck!**
+
+**Enjoy!**
