@@ -76,6 +76,12 @@ Na sequência segue alguns passos resumidos para gerenciar um projeto usando o *
 
 22. Feito isso, o repositório local já poderá ser submetido novamente para atualizar o repositório remoto.
 
+23. Quando precisar clonar um repositório já existente no repositório remoto, basta usar o comando:
+
+    * `git clone https://github.com/<<user-name>>/<<nome-do-repositorio>>.git` 
+
+24. Esse comando irá baixar para o seu diretório de trabalho uma imagem completa do seu repositório remoto, deixando-o pronto para o trabalho nos códigos.
+
 
 
 **Good luck!**
