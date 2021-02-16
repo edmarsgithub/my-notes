@@ -64,8 +64,18 @@ Na sequência segue alguns passos resumidos para gerenciar um projeto usando o *
 
     * `git push -u origin master`
 
-18.  Se tudo ocorreu certo, agora você já tem seu código em um repositório remoto e já pode começar a versionar seu código a cada nova inclusão, modificação ou exclusão feita e seus arquivos.
+18. Se tudo ocorreu certo, agora você já tem seu código em um repositório remoto e já pode começar a versionar seu código a cada nova inclusão, modificação ou exclusão feita e seus arquivos.
+
+19. Quando precisar atualizar seu repositório loca a partir do repositório remoto, use o comando:
+
+    * `git pull origin master`
+
+20. Esse comando também efetuará o **merge** do conteúdo **remoto** com o conteúdo **local**.
+
+21. Se surgirem conflito, basta iniciar a resolução de conflito para cada arquivo que for referenciado. Resolver conflito significa aceitar ou rejeitar as alterações indicadas para cada arquivo em conflito de versão. O objetivo permitir a análise do arquivo e suas versões para que o usuário possa decidir qual versão deve permanecer no repositório.
+
+22. Feito isso, o repositório local já poderá ser submetido novamente para atualizar o repositório remoto.
+
+
 
 **Good luck!**
-
-**Enjoy!**
