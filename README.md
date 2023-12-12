@@ -12,4 +12,8 @@ http://lite.acad.univali.br/portugol/
 
 Essa pasta contém arquivos utilizados como _sandbox_ na experimentação dos comandos do **GIT** e **GITHUB**.
 
+## ./html&css
+
+Essa pasta contém experimentos em html e css.
+
 **Enjoy**
