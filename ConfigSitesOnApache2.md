@@ -1,6 +1,3 @@
-Aqui está o conteúdo do tutorial em formato Markdown, pronto para ser utilizado no GitHub:
-
-```markdown
 # Configurando dois sites no Apache2 no Ubuntu do WSL
 
 Este tutorial mostra como configurar dois sites no Apache2, rodando no Ubuntu dentro do WSL (Windows Subsystem for Linux), usando os nomes de domínio "site1" e "site2".
