@@ -53,12 +53,32 @@ def inserir_contato(nome, telefones):
     for telefone in telefones:
         cursor.execute('INSERT INTO telefones (contato_id, telefone) VALUES (?, ?)', (contato_id, telefone))
 
+# Função para exibir os contatos e seus telefones
+def mostrar_contatos():
+    cursor.execute('''
+        SELECT contatos.nome, telefones.telefone
+        FROM contatos
+        LEFT JOIN telefones ON contatos.id = telefones.contato_id
+        ORDER BY contatos.nome
+    ''')
+    
+    contatos = cursor.fetchall()
+    if contatos:
+        print("Contatos cadastrados:")
+        for nome, telefone in contatos:
+            print(f'Nome: {nome}, Telefone: {telefone}')
+    else:
+        print("Nenhum contato cadastrado.")
+
 # Exemplo de inserção de dados
 inserir_contato('João Silva', ['123456789', '987654321'])
 inserir_contato('Maria Oliveira', ['555444333'])
 
 # Confirmar as mudanças
 conn.commit()
+
+# Mostrar os contatos e seus telefones
+mostrar_contatos()
 
 # Fechar a conexão
 conn.close()
