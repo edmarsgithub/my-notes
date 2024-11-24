@@ -1,4 +1,4 @@
-Esse comando pode parecer complexo à primeira vista, mas ele é muito útil para buscar ocorrências específicas (neste caso, linhas contendo `sudo` e `uid`) em arquivos de log no sistema. Vamos dividir o comando e explicar cada parte:
+Esse comando pode parecer complexo à primeira vista, mas ele é muito útil para buscar ocorrências específicas ( neste caso, linhas contendo `sudo` e `uid` ) em arquivos de log no sistema. Vamos dividir o comando e explicar cada parte:
 
 ---
 
