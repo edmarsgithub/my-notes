@@ -140,4 +140,4 @@ Segue um tutorial completo e detalhado para instalar e configurar o Samba, compa
 
 ---
 
-Se precisar de ajustes adicionais ou mais explicações, estou à disposição!
+
